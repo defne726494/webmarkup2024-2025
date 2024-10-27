@@ -1,0 +1,5 @@
+Student name: [Defne Nezigul Akalin]
+Student number: [726494]
+Student class: [IT-1A]
+GitHub Repository: []
+GitHub Pages URL: [Your GitHub Pages URL]

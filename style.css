@@ -1,0 +1,161 @@
+/* Reset basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Karla', sans-serif;
+    color: #2c3e50;
+    background-color: #f8f9fa;
+}
+
+/* Top Navigation */
+.top-nav {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+.top-nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.top-nav a:hover {
+    color: #2e91a4;
+}
+
+/* Sidebar Navigation */
+.sidebar {
+    width: 200px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    top: 60px;
+    bottom: 0;
+    padding: 1rem;
+}
+
+.sidebar h2 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.sidebar nav a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin: 1rem 0;
+    font-size: 1rem;
+}
+
+.sidebar nav a:hover {
+    color: #9ce2c0;
+}
+
+/* Main Content */
+.content {
+    margin-left: 220px;
+    padding: 2rem;
+}
+
+.content h1, .content h2 {
+    color: #2b9684;
+}
+
+.content img {
+    max-width: 100%;
+    height: auto;
+    margin: 1rem 0;
+}
+
+/* Intro Section with Walther Flemming's Image */
+.intro-text {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+}
+
+.intro-text p {
+    flex: 1;
+}
+
+.walther-image {
+    max-width: 10px; /* Smaller width to match the other images */
+    margin-left: 1rem;
+    border-radius: 8px;
+    float: right; /* Allows text to wrap around the image */
+}
+
+/* Walther Text Styling */
+.walther-text {
+    margin-top: 1rem;
+    line-height: 1.6;
+}
+
+/* Contact Section Layout */
+.contact-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.contact-info {
+    flex: 1;
+    background-color: #f0f2f5;
+    padding: 1.5rem;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info h3 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.contact-info p {
+    margin: 0.5rem 0;
+}
+
+/* Contact Form Styles */
+.contact-form {
+    flex: 2;
+    max-width: 600px;
+    background-color: rgb(227, 252, 225);
+    padding: 1.5rem;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form label {
+    display: block;
+    margin: 1rem 0 0.5rem;
+}
+
+.contact-form input, 
+.contact-form textarea, 
+.contact-form select {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-form button {
+    padding: 0.5rem 1rem;
+    background-color: #2b9684;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #1f705b;
+}
